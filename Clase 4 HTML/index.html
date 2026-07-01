@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea formulario</title>
+</head>
+<body>
+    <form>
+        <h1>My feedback form</h1>
+        <div>
+            <label>
+                Name:
+                <input type="text" name="username" placeholder="Usuario-123">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Email:
+                <input type="email" name="email" id="email" placeholder="ejemplo@mail.com">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Password:
+                <input type="password" name="password" id="password">
+            </label>
+        </div>
+
+        <div>
+
+            <span>Please check all the emotions that apply to you:</span>
+
+            <div>
+                <label>
+                    Angry
+                    <input type="checkbox" name="emotion" value="1">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Sad
+                    <input type="checkbox" name="emotion" value="2">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Happy
+                    <input type="checkbox" name="emotion" value="3">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Ambivalent
+                    <input type="checkbox" name="emotion" value="4">
+                </label>
+            </div>
+
+        </div>
+
+        <div>
+
+            <span>How satisfied were you with our service?</span>
+
+            <div>
+                <label>
+                    Very satisfied
+                    <input type="radio" name="satisfaction" checked value="VS">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Satisfied
+                    <input type="radio" name="satisfaction" value="S">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Didn't care
+                    <input type="radio" name="satisfaction" value="DC">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Dissatisfied
+                    <input type="radio" name="satisfaction" value="D">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Very dissastified
+                    <input type="radio" name="satisfaction" value="VD">
+                </label>
+            </div>
+        </div>
+
+        <div>
+            <label for="message">Further comments:</label>
+            <textarea name="message" id="message" rows="4" cols="35"></textarea>
+        </div>
+
+        <div>
+            <label>Bio photo:</label>
+            <input type="file" accept="image/*, text/*" name="file">
+        </div>
+
+        <div>
+            <label for="select-location">Location visited:</label>
+                <select name="select-location" id="select-location">
+                    <option value="Arg">Argentina</option>
+                    <option value="Brz">Brasil</option>
+                    <option value="Uru">Uruguay</option>
+                    <option value="Par">Paraguay</option>
+                    <option value="Bol">Bolivia</option>
+                    <option selected value="NA" disabled>No seleccionado</option>
+                </select>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

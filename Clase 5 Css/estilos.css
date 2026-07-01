@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+    font-style: 120px;
+}
+
+.titulo{
+    color: blueviolet;
+}
+
+.subrayado{
+    text-decoration: 1px solid underline;
+}
