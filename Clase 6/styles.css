@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Reenie+Beanie&display=swap');
+*{
+    font-family: "Reenie Beanie", cursive;
+}
+
+h1 {
+    font-family: "Khand", sans-serif;
+}
+
+p{
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.caja{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
