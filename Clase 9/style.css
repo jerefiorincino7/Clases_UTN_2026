@@ -1,0 +1,73 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.hijo{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.hijo:nth-child(1){
+    background-color: blueviolet;
+}
+
+.hijo:nth-child(2){
+    background-color: red;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    z-index: 2;
+}
+
+.hijo:nth-child(3){
+    background-color: blue;
+    z-index: 3;
+}
+
+header{
+    background-color: yellow;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form input{
+    width: 100%;
+    padding: 8px 16px;
+}
+
+.search-btn{
+    position: absolute;
+    right: 16px;
+    border: none;
+    background-color: transparent;
+}
