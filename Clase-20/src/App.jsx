@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductCard from './Components/ProductCard/ProductCard'
 import Message from './Components/Message/Message'
+import Counter from "./Components/Counter/Counter"
 
 export default function App() {
 
@@ -37,7 +38,9 @@ export default function App() {
       <ProductCard/>
       <ProductCard/>
       <ProductCard/>
+      <Counter/>
     </div>
+    
   )
 }
 
