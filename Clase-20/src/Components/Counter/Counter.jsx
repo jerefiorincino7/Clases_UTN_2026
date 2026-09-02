@@ -25,7 +25,7 @@ function Counter() {
                 </p>
             )}
             <button onClick={handleDecrement}>-</button>
-            <button onClick={handleIncrement} disabled={count === 10}>+</button>
+            <button onClick={handleIncrement} disabled={count >= 10}>+</button>
         </div>
     )
 }
